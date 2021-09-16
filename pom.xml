@@ -3,7 +3,10 @@
   <groupId>com.app</groupId>
   <artifactId>MavenSimple</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <plugin>
+  <packaging>jar</packaging>
+    <build>
+    <plugins>
+      <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
     <configuration>
@@ -11,5 +14,7 @@
         <target>1.6</target>
     </configuration>
   </plugin>
+      </plugins>
+    </build>
 
 </project>
