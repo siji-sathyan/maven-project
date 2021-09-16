@@ -3,4 +3,8 @@
   <groupId>com.app</groupId>
   <artifactId>MavenSimple</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <configuration>
+                <source>1.6</source>
+                <target>1.6</target>
+            </configuration>
 </project>
